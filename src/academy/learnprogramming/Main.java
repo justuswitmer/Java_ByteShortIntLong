@@ -40,5 +40,14 @@ public class Main {
 
         long longValue = 9_223_372_036_854_775_807L;
         System.out.println(longValue);
+
+        int myTotal = (myMinIntValue / 2);
+
+        // Casting
+        // if you do not cast, Java will assume an int
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
+
+        short myNewShortValue = (short) (myMinShortValue / 2 );
+
     }
 }
